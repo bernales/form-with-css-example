@@ -1,0 +1,98 @@
+html,
+body {
+  height: 100%;
+}
+
+.form-user {
+  width: 600px;
+  height: 800px;
+  margin: 10px;
+  padding: 25px;
+}
+
+.user-add-form {
+  width: auto;
+  height: 430px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.label-input-align {
+  width: 205px;
+  height: 20px;
+  margin: 0px;
+  padding: 12px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.status-date-align {
+  width: 98px;
+  height: 40px;
+  margin: 0px 5px 0px 5px;
+  padding: 0px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-align: center;
+}
+
+.status-date-row {
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.label-input-row {
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#comments-label {
+  text-align: left;
+  margin: 0px 0px 0px 14px;
+  width: 180px;
+}
+
+#comments {
+  margin: 0px 0px 0px 0px;
+  width: 205px;
+}
+
+.radio-style {
+  margin: 0px 0px 5px 5px;
+  width: 180px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.checkbox-style {
+  height: 40px;
+  margin: 0px 0px 20px 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.checkbox-style label {
+  margin: 5px 0px 0px 0px;
+  width: 60px;
+  text-align: left;
+}
+
+#favorite-language {
+  margin: 5px 0px 0px 0px;
+  padding: 0px;
+}
